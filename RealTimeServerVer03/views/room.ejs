@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>방 선택</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>방 선택</h1>
+    <form method="POST", action="/chat">
+      <label for="roomForm">Room name : </label>
+      <input name="roomName" type="text" id="roomForm">
+      <input name="userName" type="hidden" value=<%=userName%>>
+      <input name="userId" type="hidden" value=<%=userId%>>
+      <button type="submit">제출</button>
+    </form>
+  </body>
+</html>

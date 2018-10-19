@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form method="POST", action="/select-room">
+      <label for="nameForm">Name : </label>
+      <input name="userName" type="text" id="nameForm">
+      <label for="idForm">id : </label>
+      <input name="userId" type="text" id="userId">
+      <button type="submit">제출</button>
+    </form>
+  </body>
+</html>
+
